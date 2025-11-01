@@ -1,0 +1,13 @@
+name: cellpose
+owner: bgruening
+categories:
+  - Imaging
+description: Cellpose is an anatomical segmentation algorithm 
+homepage_url: https://github.com/MouseLand/cellpose
+long_description: |
+  Anatomical segmentation algorithm Cellpose-SAM: superhuman generalization for cellular segmentation.
+remote_repository_url: https://github.com/bgruening/galaxytools/tree/master/tools/cellpose
+type: unrestricted
+auto_tool_repositories:
+  name_template: "{{ tool_id }}"
+  description_template: "Tool for cell and nucleus segmentation {{ tool_name }}"
